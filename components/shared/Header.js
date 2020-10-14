@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Link from "next/link";
-
+import "../../styles/main.scss";
 class Header extends Component {
   render() {
     return (
       <React.Fragment>
         <Link href="/">
-          <a>Home</a>
+          <a className="ChengingColor">Home</a>
         </Link>
         <br />
         <Link href="/about">
@@ -27,6 +27,13 @@ class Header extends Component {
         <Link href="/portfolios">
           <a>Portfolios</a>
         </Link>
+        <style jsx>
+          {`
+            a {
+              font-size: 20px;
+            }
+          `}
+        </style>
       </React.Fragment>
     );
   }

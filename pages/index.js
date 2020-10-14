@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import BaseLayout from "../components/layouts/BaseLayout";
-class Home extends Component {
+import SuperComponent from "../components/SuperComponent";
+class Home extends SuperComponent {
   render() {
     return (
       <BaseLayout>
