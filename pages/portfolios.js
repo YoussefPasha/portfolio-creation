@@ -1,12 +1,10 @@
 import React from 'react'
-import Header from "../components/shared/Header";
-
+import BaseLayout from "../components/layouts/BaseLayout";
 const portfolios = () => {
     return (
-        <div>
+        <BaseLayout>
             <h1>Portfolios</h1>
-            <Header/>
-        </div>
+        </BaseLayout>
     )
 }
 
